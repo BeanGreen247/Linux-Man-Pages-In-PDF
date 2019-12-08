@@ -1356,7 +1356,7 @@ Error::Simple
 Error::TypeTiny
 Error::TypeTiny::Assertion
 Error::TypeTiny::Compilation
-Error::TypeTiny::WrongNumberOfPar...
+Error::TypeTiny::WrongNumberOfParameters
 error_at_line
 error_message_count
 error_one_per_line
@@ -3809,8 +3809,8 @@ mlx5dv
 mlx5dv_alloc_dm
 mlx5dv_create_cq
 mlx5dv_create_flow
-mlx5dv_create_flow_action_modify_...
-mlx5dv_create_flow_action_packet_...
+mlx5dv_create_flow_action_modify_header
+mlx5dv_create_flow_action_packet_reformat
 mlx5dv_create_flow_matcher
 mlx5dv_create_mkey
 mlx5dv_create_qp
@@ -3844,8 +3844,8 @@ mlx5dv_dr_action_create_dest_table
 mlx5dv_dr_action_create_dest_vport
 mlx5dv_dr_action_create_drop
 mlx5dv_dr_action_create_flow_counter
-mlx5dv_dr_action_create_modify_he...
-mlx5dv_dr_action_create_packet_re...
+mlx5dv_dr_action_create_modify_header
+mlx5dv_dr_action_create_packet_reformat
 mlx5dv_dr_action_create_tag
 mlx5dv_dr_action_destroy
 mlx5dv_dr_domain_create
@@ -4077,8 +4077,8 @@ Net::DBus::Binding::Introspector
 Net::DBus::Binding::Iterator
 Net::DBus::Binding::Message
 Net::DBus::Binding::Message::Error
-Net::DBus::Binding::Message::Meth...
-Net::DBus::Binding::Message::Meth...
+Net::DBus::Binding::Message::MethodCall
+Net::DBus::Binding::Message::MethodReturn
 Net::DBus::Binding::Message::Signal
 Net::DBus::Binding::PendingCall
 Net::DBus::Binding::Server
@@ -4099,7 +4099,7 @@ Net::DBus::Test::MockIterator
 Net::DBus::Test::MockMessage
 Net::DBus::Test::MockObject
 Net::DBus::Tutorial
-Net::DBus::Tutorial::ExportingObj...
+Net::DBus::Tutorial::ExportingObjects
 Net::DBus::Tutorial::UsingObjects
 Net::DNS
 Net::DNS::Domain
@@ -4790,6 +4790,7 @@ pow10l
 poweroff
 powf
 powl
+ppa-purge
 ppdc
 ppdcfile
 ppdhtml
@@ -5017,7 +5018,7 @@ pyjwt
 pyjwt3
 pysetup3.7
 python
-python-argcomplete-check-easy-ins...
+python-argcomplete-check-easy-install-script3
 python-config
 python2
 python2-config
@@ -5998,7 +5999,7 @@ systemd-binfmt.service
 systemd-bless-boot-generator
 systemd-bless-boot.service
 systemd-boot
-systemd-boot-check-no-failures.se...
+systemd-boot-check-no-failures.service
 systemd-cat
 systemd-cgls
 systemd-cgtop
@@ -6082,7 +6083,7 @@ systemd-sleep
 systemd-sleep.conf
 systemd-socket-activate
 systemd-socket-proxyd
-systemd-suspend-then-hibernate.se...
+systemd-suspend-then-hibernate.service
 systemd-suspend.service
 systemd-sysctl
 systemd-sysctl.service
@@ -6689,6 +6690,7 @@ viewres
 vigr
 vim
 vimdiff
+vimtutor
 vipw
 visudo
 vm86
@@ -6840,12 +6842,12 @@ X11::Auth
 X11::Keysyms
 X11::Protocol
 X11::Protocol::Connection
-X11::Protocol::Connection::FileHa...
+X11::Protocol::Connection::FileHandle
 X11::Protocol::Connection::INETFH
-X11::Protocol::Connection::INETSo...
+X11::Protocol::Connection::INETSocket
 X11::Protocol::Connection::Socket
 X11::Protocol::Connection::UNIXFH
-X11::Protocol::Connection::UNIXSo...
+X11::Protocol::Connection::UNIXSocket
 X11::Protocol::Ext::BIG_REQUESTS
 X11::Protocol::Ext::DPMS
 X11::Protocol::Ext::RENDER
@@ -6963,6 +6965,7 @@ xdg-settings
 xdg-user-dir
 xdg-user-dirs-update
 xditview
+xdotool
 xdpyinfo
 xdr
 xdr_accepted_reply
