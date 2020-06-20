@@ -1,3 +1,9 @@
+/*
+      This is a custom style.css file created by BeanGreen247 (https://github.com/BeanGreen247).
+      If you plan on using it make sure to let me know or credit me in the readme or inside of
+      the css file itself. 
+*/
+
 body {
     width: auto;
     height: 100%;
@@ -230,7 +236,38 @@ hr.small {
   max-height: 200px;
   border: 2px solid #0a599e;
 }
-/* hover effect for images beginning */
+/* hover effect for images ending */
+
+/* fixed menu button and close button beginning */
+.menubuttonstyle {
+  position: fixed;
+  text-decoration: none;
+  text-align:right;
+  float:right;
+  font-size:20px;
+  cursor:pointer;
+  background-color:gray;
+  color:white;
+  border: 1px solid white;
+  margin:5px;
+  padding:5px 10px 5px 10px;
+  right:0.02%;
+  top:-0.05%
+}
+
+.menuclosebuttonstyle {
+  top: -5%;
+  text-decoration: none;
+  text-align:right;
+  float:right;
+  font-size:20px;
+  color:white;
+}
+
+.menuclosebuttonstyle a {
+  color: white;
+}
+/* fixed menu button and close button beginning */
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
