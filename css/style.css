@@ -78,28 +78,27 @@ body {
 }
 
 .secondarytext {
-    color: black;  
+    color: white;  
     font-size: 15px;
     font-family: 'Roboto';
     font-weight: 100;
     display: inline-flexbox;
     text-align: center;
-    background-color: #ffffff;
-    padding-top: 25px;
+    background-color: #797979;
     padding-bottom: 10px;
     padding-right: 5px;
     padding-left: 5px;
 }
 
 .secondarytext h2 {
-    color: black;  
+    color: white;  
     font-weight: bold;
     font-size: 20px;
     font-family: 'Roboto';
     font-weight: 100;
     display: inline-flexbox;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #797979;
     margin: 0 0 1em 0;
     padding-top: 15px;
     padding-bottom: 0;
@@ -194,14 +193,52 @@ hr.small {
     list-style: none
 }
 
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+.hyperlinks a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/* hover effect for images beginning */
+.images img {
+  margin-top: 2%;
+  max-height: 200px;
+  border: 2px solid #428bca;
+}
+
+.images img:hover {
+    transition: 0.5ms;
+    margin-top: 2%;
+    max-height: 200px;
+    border: 2px solid #0a599e;
+}
+
+.images a:hover {
+  transition: 0.5ms;
+  opacity: 0.85;
+}
+
+.imageshome img {
+  margin-top: -1%;
+  max-height: 200px;
+  border: 2px solid #428bca;
+}
+
+.imageshome img:hover {
+  transition: 0.5ms;
+  opacity: 0.85;
+  margin-top: -1%;
+  max-height: 200px;
+  border: 2px solid #0a599e;
+}
+/* hover effect for images beginning */
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
   }
-  @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
-      width: 100%;
-      padding: 0;
-    }
-  }
-  
+}
